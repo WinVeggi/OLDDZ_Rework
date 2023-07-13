@@ -1,0 +1,22 @@
+.base {
+    color: rgb(223, 117, 117);
+    font-size: 160%;
+  }
+  body {
+    background-color: rgb(87, 84, 84);
+  }
+  .izo {
+    width:450px;
+    height: auto;
+  }
+  .center {
+    background-color: rgb(87, 84, 84);
+   text-align: center;
+  }
+
+  .italic {
+   font-style: italic;
+   font-size: 24px;
+   color: white;
+   text-shadow: 2px 2px green;
+  }
