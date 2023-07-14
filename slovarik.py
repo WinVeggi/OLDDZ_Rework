@@ -1,9 +1,10 @@
-slovo = input()
+
 
 def is_palindrome():
-    global slovo
+    print('Введите слово:')
+    slovo = input()
     if slovo == slovo[::-1]:
-        return True
+        print('True')
     else:
-        return False
-print(is_palindrome())
+        print('False')
+is_palindrome()
