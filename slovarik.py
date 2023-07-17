@@ -1,10 +1,6 @@
+def is_palindrome(slovo):
+    return slovo == slovo[::-1]
 
-
-def is_palindrome():
-    print('Введите слово:')
-    slovo = input()
-    if slovo == slovo[::-1]:
-        print('True')
-    else:
-        print('False')
-is_palindrome()
+while True:
+    slovo = input('Введите слово для проверки: ')
+    print(is_palindrome(slovo))
